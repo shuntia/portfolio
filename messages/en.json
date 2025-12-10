@@ -1,0 +1,61 @@
+{
+  "Metadata": {
+    "title": "Shuntia – Systems & Creative Developer",
+    "description": "High school developer building tools, editors, and protocol concepts."
+  },
+  "Navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "name": "Shuntia",
+    "role": "Systems & Creative Developer",
+    "tagline": "I’m a systems and creative developer building tools, editors, and early-stage protocols — combining low-level engineering with artistic technology.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "About": {
+    "title": "About Me",
+    "short": "I’m a high school developer exploring the intersection of systems engineering and creative technology. I enjoy building tools from scratch — video editors, small utilities, and even early-stage protocol concepts. I work in both English and Japanese and like solving problems that feel ambitious for my age.",
+    "extended": "My interests span systems programming, multimedia processing, UI motion, and infrastructure concepts. I care about clarity of design, performance, and long-term reliability. I’m especially drawn to projects that combine engineering with creativity — whether that’s building a video editor, shaping a protocol idea, or designing interfaces that feel intuitive and expressive.",
+    "skillsTitle": "Skills & Interests"
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "lunaris": {
+      "name": "Lunaris",
+      "type": "Video Editor / Creative Tool",
+      "description": "A modular, extensible video editor designed around a node graph and clean internal architecture. Focused on clarity, performance, and creative flexibility."
+    },
+    "qdp": {
+      "name": "qdp",
+      "type": "Protocol Concept",
+      "description": "An experimental concept for a resilient, lightweight communication protocol intended for critical information flow."
+    },
+    "other": {
+      "title": "Other Work",
+      "webTools": "Web tools (utilities, dashboards)",
+      "automation": "Automation scripts & bots",
+      "audio": "Audio/UTAU tooling",
+      "animation": "Animation-oriented UI experiments"
+    }
+  },
+  "Services": {
+    "title": "What I Do",
+    "web": "Small web projects",
+    "automation": "Automation scripts / bots",
+    "animation": "UI animation work",
+    "prototypes": "Small creative-tech prototypes",
+    "tutoring": "Basic tutoring"
+  },
+  "Contact": {
+    "title": "Contact",
+    "text": "Feel free to reach out for collaboration, questions, or small projects.",
+    "emailButton": "Email Me"
+  },
+  "Footer": {
+    "copyright": "© {year} Shuntia. All rights reserved."
+  }
+}
