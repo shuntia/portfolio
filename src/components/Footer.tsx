@@ -6,7 +6,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="py-8 px-6 border-t border-neutral-800 text-center text-neutral-500 text-sm">
+    <footer className="py-8 px-6 border-t theme-border text-center theme-text-muted text-sm">
       <p>{t('copyright', {year})}</p>
     </footer>
   );

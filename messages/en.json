@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Shuntia – Systems & Creative Developer",
-    "description": "High school developer building tools, editors, and protocol concepts."
+    "title": "shuntia – Systems & Creative Dev",
+    "description": "High schooler building tools, editors, and protocol concepts."
   },
   "Navigation": {
     "about": "About",
@@ -10,52 +10,52 @@
     "contact": "Contact"
   },
   "Hero": {
-    "name": "Shuntia",
+    "name": "shuntia",
     "role": "Systems & Creative Developer",
-    "tagline": "I’m a systems and creative developer building tools, editors, and early-stage protocols — combining low-level engineering with artistic technology.",
-    "viewProjects": "View Projects",
-    "contactMe": "Contact Me"
+    "tagline": "High school systems engineer & creative dev. Building modular tools in Rust, designing protocols, and obsessing over type safety.",
+    "viewProjects": "See my work",
+    "contactMe": "Contact"
   },
   "About": {
     "title": "About Me",
-    "short": "I’m a high school developer exploring the intersection of systems engineering and creative technology. I enjoy building tools from scratch — video editors, small utilities, and even early-stage protocol concepts. I work in both English and Japanese and like solving problems that feel ambitious for my age.",
-    "extended": "My interests span systems programming, multimedia processing, UI motion, and infrastructure concepts. I care about clarity of design, performance, and long-term reliability. I’m especially drawn to projects that combine engineering with creativity — whether that’s building a video editor, shaping a protocol idea, or designing interfaces that feel intuitive and expressive.",
-    "skillsTitle": "Skills & Interests"
+    "short": "I'm shuntia. A high schooler from the US. I build high-performance systems in Rust and creative tools for audio/video. I value correctness, minimalism, and zero global state.",
+    "extended": "I specialize in systems programming (Rust, Tokio), ECS architectures, and performant UI. I build things like Lunaris (a modular video editor) and qdp (a resilience protocol). I run Arch (Hyprland), produce UTAU music, and draw. I have a strict engineering philosophy: strong types, no magic, and absolute reliability.",
+    "skillsTitle": "Technologies"
   },
   "Projects": {
-    "title": "Featured Projects",
+    "title": "Projects",
     "lunaris": {
-      "name": "Lunaris",
+      "name": "🌘 Lunaris",
       "type": "Video Editor / Creative Tool",
-      "description": "A modular, extensible video editor designed around a node graph and clean internal architecture. Focused on clarity, performance, and creative flexibility."
+      "description": "A modular video/audio editing system with an ECS-like architecture. Built for performance, plugin flexibility, and strict correctness."
     },
     "qdp": {
-      "name": "qdp",
-      "type": "Protocol Concept",
-      "description": "An experimental concept for a resilient, lightweight communication protocol intended for critical information flow."
+      "name": "🔔 qdp",
+      "type": "Quick Disaster Protocol",
+      "description": "An experimental concept for a resilient, lightweight communication protocol. It's an exploration of infrastructure and reliability."
     },
     "other": {
-      "title": "Other Work",
-      "webTools": "Web tools (utilities, dashboards)",
-      "automation": "Automation scripts & bots",
-      "audio": "Audio/UTAU tooling",
-      "animation": "Animation-oriented UI experiments"
+      "title": "Other Projects",
+      "webTools": "Web utilities",
+      "automation": "Bots & scripts",
+      "audio": "UTAU / Audio tools",
+      "animation": "UI experiments"
     }
   },
   "Services": {
     "title": "What I Do",
-    "web": "Small web projects",
-    "automation": "Automation scripts / bots",
-    "animation": "UI animation work",
-    "prototypes": "Small creative-tech prototypes",
-    "tutoring": "Basic tutoring"
+    "web": "Web Development",
+    "automation": "Automation & Bots",
+    "animation": "UI Animation",
+    "prototypes": "Prototyping",
+    "tutoring": "Code Tutoring"
   },
   "Contact": {
-    "title": "Contact",
-    "text": "Feel free to reach out for collaboration, questions, or small projects.",
+    "title": "Get in Touch",
+    "text": "Interested in collaborating or have a question? Feel free to reach out.",
     "emailButton": "Email Me"
   },
   "Footer": {
-    "copyright": "© {year} Shuntia. All rights reserved."
+    "copyright": "© {year} shuntia."
   }
 }

@@ -1,12 +1,12 @@
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import About from '@/components/About';
 import Footer from '@/components/Footer';
 
-export default function Home() {
+export default function AboutPage() {
   return (
-    <main className="min-h-screen theme-bg">
+    <main className="min-h-screen theme-bg pt-16">
       <Header />
-      <Hero />
+      <About />
       <Footer />
     </main>
   );

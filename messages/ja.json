@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Shuntia – システムとクリエイティブの開発者",
-    "description": "ツール、エディタ、プロトコルコンセプトを制作する開発者。"
+    "title": "shuntia – システム & クリエイティブ",
+    "description": "ツール、エディタ、プロトコルコンセプトを作る高校生開発者。"
   },
   "Navigation": {
     "about": "About",
@@ -10,52 +10,52 @@
     "contact": "Contact"
   },
   "Hero": {
-    "name": "Shuntia",
-    "role": "システムとクリエイティブの開発者",
-    "tagline": "システムエンジニアリングと芸術的テクノロジーを融合させ、ツール、エディタ、初期段階のプロトコルを構築するシステム＆クリエイティブ開発者です。",
+    "name": "shuntia",
+    "role": "Systems & Creative Developer",
+    "tagline": "システムエンジニア & クリエイティブ開発者。Rustでのモジュラーなツール開発と、型安全性へのこだわり。",
     "viewProjects": "プロジェクトを見る",
-    "contactMe": "お問い合わせ"
+    "contactMe": "連絡する"
   },
   "About": {
     "title": "About Me",
-    "short": "システムエンジニアリングとクリエイティブテクノロジーの交差点を探求している高校生開発者です。ビデオエディタや小さなユーティリティ、さらには初期段階のプロトコルコンセプトなど、ゼロからツールを構築することを楽しんでいます。英語と日本語の両方で活動し、年齢に対して野心的と感じられる問題解決に取り組むのが好きです。",
-    "extended": "私の興味は、システムプログラミング、マルチメディア処理、UIモーション、インフラストラクチャの概念に及びます。設計の明確さ、パフォーマンス、そして長期的な信頼性を重視しています。ビデオエディタの構築、プロトコルのアイデアの形成、直感的で表現力豊かなインターフェースの設計など、エンジニアリングと創造性を組み合わせたプロジェクトに特に惹かれます。",
-    "skillsTitle": "スキルと興味"
+    "short": "アメリカの高校生、shuntiaです。Rustを用いた高性能なシステムや、音声・動画のためのクリエイティブツールを作っています。正当性、ミニマリズム、そして「グローバルステート排除」を重視しています。",
+    "extended": "システムプログラミング（Rust, Tokio）、ECSアーキテクチャ、高パフォーマンスなUIを専門としています。Lunaris（動画編集ソフト）やqdp（プロトコル）などを開発。Arch Linux (Hyprland) を愛用し、UTAUでの楽曲制作やイラストも描きます。厳格な型システムと信頼性を信条としています。",
+    "skillsTitle": "技術スタック"
   },
   "Projects": {
-    "title": "Featured Projects",
+    "title": "Projects",
     "lunaris": {
-      "name": "Lunaris",
-      "type": "ビデオエディタ / クリエイティブツール",
-      "description": "ノードグラフとクリーンな内部アーキテクチャを中心に設計された、モジュール式で拡張可能なビデオエディタ。明確さ、パフォーマンス、そして創造的な柔軟性に焦点を当てています。"
+      "name": "🌘 Lunaris",
+      "type": "動画編集ソフト / クリエイティブツール",
+      "description": "ECSライクなアーキテクチャを持つモジュラー式動画・音声編集システム。パフォーマンス、プラグインの柔軟性、そして設計の正当性を追求しています。"
     },
     "qdp": {
-      "name": "qdp",
-      "type": "プロトコルコンセプト",
-      "description": "重要な情報の流れを意図した、回復力のある軽量通信プロトコルのための実験的なコンセプトです。"
+      "name": "🔔 qdp",
+      "type": "Quick Disaster Protocol",
+      "description": "軽量で堅牢な通信プロトコルの実験的なコンセプト。インフラやプロトコル設計への興味から生まれたプロジェクトです。"
     },
     "other": {
-      "title": "その他の活動",
-      "webTools": "Webツール（ユーティリティ、ダッシュボード）",
-      "automation": "自動化スクリプトとボット",
-      "audio": "オーディオ/UTAUツール",
-      "animation": "アニメーション指向のUI実験"
+      "title": "その他",
+      "webTools": "Webツール",
+      "automation": "自動化スクリプト・Bot",
+      "audio": "UTAU / 音声ツール",
+      "animation": "UI実験"
     }
   },
   "Services": {
     "title": "できること",
-    "web": "小規模なWebプロジェクト",
-    "automation": "自動化スクリプト / ボット",
-    "animation": "UIアニメーション制作",
-    "prototypes": "小規模なクリエイティブテック・プロトタイプ",
-    "tutoring": "プログラミング基礎の指導"
+    "web": "Webサイト制作",
+    "automation": "Bot・自動化",
+    "animation": "UIアニメーション",
+    "prototypes": "プロトタイプ制作",
+    "tutoring": "プログラミング相談"
   },
   "Contact": {
     "title": "Contact",
-    "text": "コラボレーション、質問、または小規模なプロジェクトについて、お気軽にご連絡ください。",
-    "emailButton": "メールを送る"
+    "text": "コラボレーションや質問など、お気軽にご連絡ください。",
+    "emailButton": "メールする"
   },
   "Footer": {
-    "copyright": "© {year} Shuntia. All rights reserved."
+    "copyright": "© {year} shuntia."
   }
 }

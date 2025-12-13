@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import PageTransition from '@/components/PageTransition';
+import { ThemeProvider } from '@/components/ThemeProvider';
+import { Suspense } from 'react';
 import "../globals.css";
 
 const geistSans = Geist({
@@ -15,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shuntia",
+  title: "shuntia",
   description: "Systems & Creative Developer",
 };
 
@@ -30,12 +33,18 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-950 text-neutral-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased theme-bg`}
       >
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+            <Suspense fallback={<div className="min-h-screen theme-bg" />}>
+              <PageTransition>
+                {children}
+              </PageTransition>
+            </Suspense>
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
