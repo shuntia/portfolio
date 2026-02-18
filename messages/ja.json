@@ -31,7 +31,7 @@
     },
     "qdp": {
       "name": "🔔 qdp",
-      "type": "Quick Disaster Protocol",
+      "type": "Quake(and Disaster) Datagram Protocol",
       "description": "軽量で堅牢な通信プロトコルの実験的なコンセプト。インフラやプロトコル設計への興味から生まれたプロジェクトです。"
     },
     "other": {

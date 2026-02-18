@@ -31,7 +31,7 @@
     },
     "qdp": {
       "name": "🔔 qdp",
-      "type": "Quick Disaster Protocol",
+      "type": "Quake(and Disaster) Datagram Protocol",
       "description": "An experimental concept for a resilient, lightweight communication protocol. It's an exploration of infrastructure and reliability."
     },
     "other": {
