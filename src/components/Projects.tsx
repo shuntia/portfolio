@@ -1,10 +1,11 @@
 'use client';
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -37,7 +38,7 @@ export default function Projects() {
         paused: true,
         ease: 'power2.out'
       });
-      
+
       card.addEventListener('mouseenter', () => hover.play());
       card.addEventListener('mouseleave', () => hover.reverse());
     });
@@ -49,12 +50,12 @@ export default function Projects() {
         <h2 className="text-4xl md:text-6xl font-bold mb-16 tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-theme-text-main to-theme-text-muted">
           {t('title')}
         </h2>
-        
+
         <div className="grid grid-cols-1 gap-12">
           {/* Lunaris */}
           <div className="project-card opacity-0 translate-y-12 group relative theme-card theme-card-hover p-8 md:p-12 rounded-3xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            
+
             <div className="relative z-10 flex flex-col md:flex-row justify-between gap-8">
               <div className="flex-1">
                 <div className="flex items-center gap-4 mb-4">
@@ -68,14 +69,11 @@ export default function Projects() {
                 </p>
                 <div className="flex gap-4">
                   <button className="flex items-center gap-2 text-sm font-medium theme-text-main hover:text-blue-400 transition-colors">
-                    <Github size={18} /> Source
-                  </button>
-                  <button className="flex items-center gap-2 text-sm font-medium theme-text-main hover:text-blue-400 transition-colors">
-                    <ExternalLink size={18} /> Demo
+                    <Link href="https://github.com/lunaris-systems/lunaris"> <Github size={18} /> Source</Link>
                   </button>
                 </div>
               </div>
-              
+
               {/* Visual Placeholder for "Actual Website" feel */}
               <div className="w-full md:w-1/3 aspect-video bg-theme-bg rounded-xl theme-border border flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-500">
                 <div className="theme-text-muted font-mono text-sm">Preview Unavailable</div>
@@ -86,7 +84,7 @@ export default function Projects() {
           {/* qdp */}
           <div className="project-card opacity-0 translate-y-12 group relative theme-card theme-card-hover p-8 md:p-12 rounded-3xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            
+
             <div className="relative z-10">
               <div className="flex items-center gap-4 mb-4">
                 <h3 className="text-3xl md:text-4xl font-bold theme-text-main">{t('qdp.name')}</h3>
@@ -99,7 +97,7 @@ export default function Projects() {
               </p>
               <div className="flex gap-4">
                 <button className="flex items-center gap-2 text-sm font-medium theme-text-main hover:text-purple-400 transition-colors">
-                  <ArrowUpRight size={18} /> Read Spec
+                  <Link href="https://github.com/shuntia/qdp"><ArrowUpRight size={18} /> Read Spec</Link>
                 </button>
               </div>
             </div>
